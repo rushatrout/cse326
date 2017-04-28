@@ -1,0 +1,64 @@
+body{
+            background-color: ;
+        }
+        form{
+            width: 100%;
+            height: 270px;
+            background-color: #FFFFFF;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 20px;     
+        }
+        form h1{            
+            width: 100%;
+            height: 50px;
+            background-color: #0045D4;
+            color: white;
+            font-family: myfont;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            text-align: center;
+        }     
+        form input{
+            display: block;
+            width: 80%;
+            height: 40px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 20px;      
+            font-family: myfont;   
+            font-size: 20px;   
+        } 
+		
+        form button{
+            display: block;
+            width: 40%;
+            height: 40px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #0045D4;
+            font-family: myfont;
+            font-size: 20px;
+        }
+        form button:hover{
+            font-size: 25px;
+            color: white;
+            background-color: #2A9942;
+        }
+        form input:required{
+            background: #FFFFFF url('symbol.png') no-repeat right center;
+        }
+        form input:focus:invalid{
+            background: #FFFFFF url('invalid.png') no-repeat right center;
+            border: solid #CD3F33 2px;
+        }
+        form input:focus:valid{
+            background: #FFFFFF url('valid.png') no-repeat right center;
+            border: solid #2A9942 2px;
+        }
+  
+  
+  .modal-dialog{
+  background-color: green;
+  border-radius: 20px;
+  }
