@@ -135,7 +135,7 @@ function myfun(car,owner_name,owner_mobile)
 </nav>
 <footer class="footer">
 <section>
-    &copy; Savan Morya and Groups
+    &copy; Rushat Rout
   </section>
 </footer>
 </body>
