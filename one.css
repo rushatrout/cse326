@@ -1,0 +1,270 @@
+
+body{
+	background: url('backgrnd.jpeg') no-repeat;
+	background-color: #33CC33;
+	margin: 0px;
+}
+
+header{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background: url("./car.jpg");
+	margin-top: -25px;
+}
+
+.cont{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 65%;
+	background-color: red;
+	border-radius: 70px;
+	height: 110px;
+}
+
+.clsh1{
+	width: 100%;
+	height: 52px;
+	background-color: #00D4FF;
+	text-align: center;
+	padding-top: 10px;
+	margin-bottom: 1px;
+	font-size: 36px;
+	color: white;
+	margin-top: 25px;
+}
+
+.cls2{
+	display: inline;
+	width: 120px;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-size: 30px;
+	color: black;
+	text-decoration: none;
+	background-color: #78ae34;
+	border: 0px solid #00D4FF;
+	padding-left: 8px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+    transition: padding-bottom 1s;
+}
+.cls2:hover{
+	background-color: #E3E3E3;
+	border: 0px solid #E3E3E3;
+	color: #4567f3;
+	height: 50px;
+	padding-bottom: 20px;
+	cursor: pointer;
+	text-decoration: none;
+}
+/* header Completed  */
+
+.sec1{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 71%;
+	height: 260px;
+	background-color: #336633;
+	border-radius: 20px;
+	margin-top: 50px;
+    padding-top: 10px;
+	opacity: 0.8;
+}
+.sec11{
+	display: inline;
+	width: 20%;
+	margin-left: 50px;
+	padding: 10px;
+	background-color: #000099;
+	border-radius: 10px;
+	font-size: 24px;
+	height: 50px;
+	color: #00CC00;
+}
+.date1{
+	display: inline;
+	width: 26%;
+	margin-left: 445px;
+	padding: 10px;
+	background-color: #000099;
+	border-radius: 10px;
+	font-size: 25px;
+	height: 55px;
+	color: #00CC00;
+}
+
+.inpt1{
+	Display: inline;
+	width: 32%;
+	height: 48px;
+	margin-left: 65px;
+	margin-right: 65px;
+	margin-top: 45px;
+	margin-bottom: 25px;
+	border: 4px solid #0045D4;
+	border-radius: 16px;
+	font-size: 30px;
+	padding-left: 14px;
+}
+.inpt1:focus{
+	border: 4px solid green;
+	border-radius: 16px;
+}
+.btn1{
+	width: 270px;
+	height: 50px;
+	margin-left: 300px;
+	font-size: 29px;
+	color: #a84471;
+	background-color: #000099;
+	border-radius: 10px;
+}
+.btn1:hover{
+	font-size: 32px;
+	color: #FFD455;
+	background-color: #00CC00;
+}
+
+.img{
+	
+	width: 48px;
+	height: 40px;
+	margin-left: -120px;
+	
+}
+.wlcm{
+	
+	margin-left: 200px;
+    margin-right: 200px;;
+	
+}
+
+.footer{
+	position:relative;
+	padding: 50px 0px 0px 90px;
+	width: 100%;
+	color: white;
+	background-color: #5BB0B5;
+    height: 150px;
+	font-size: 24px;
+	bottom: -200px;
+    left:0px;
+    right:0px;
+}
+.res{
+	display: block;
+	width: 62%;
+	margin-top: 110px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 8px;
+	color: #2AFF00;
+	border: 1px solid green;
+	background-color: white;
+}
+.output{
+	-webkit-animation: mymove 3s infinite; 
+   animation: mymove 3s infinite;
+	width: 70%;
+	display: block;
+	font-size: 20px;
+	color: #000066;
+	margin: 9px 50px;
+	padding: 8px;
+}
+.output:hover{
+	background-color: #66CC66;
+	color: white;
+}
+@keyframes mymove 
+{
+    from {background-color: #FF9999;}
+    to  {background-color: #FF0000;}
+}
+
+.pick{
+	display: inline;
+	width: 100px;
+	color: #993333;
+	background-color: #999900;
+	border-radius: 10px;
+	border: 2px solid green;
+	font-size: 20px;
+}
+.pick:hover{
+	background-color: #FFFF00;
+}
+.cont1{
+	display: block;
+	width: 45%;
+	margin-top: 10px;
+	margin-bottom: -50px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 1300px;
+	padding-top: 30px;
+	color: #0000CC;
+	border: 1px solid green;
+	background-color: white;
+	text-align: center;
+	height: 290px;
+	font-size: 28px;
+}
+.ftr{
+	margin-top: 100px;
+	padding: 50px 0px 0px 90px;
+	width: 100%;
+	color: white;
+	background-color: #5BB0B5;
+    height: 150px;
+	font-size: 24px;
+}
+.user1{
+	display: block;
+	width: 45%;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #348912;
+	background-color: #fff;
+	border-radius: 60px;
+	text-align: left;
+	font-size: 21px;
+	padding: 40px;
+}
+.upd{
+	display: block;
+	width: 75px;
+	margin-top: 20px;
+	margin-left: 30px;
+	height: 29px;
+	background-color: #9999FF;
+	color: #FFFF00;
+	text-decoration: none;
+}
+.upd:hover{
+	text-decoration: none;
+	background-color: #CC33CC;
+	color: #FFCCCC;
+}
+.addcar{
+	display: inline;
+	width: 80px;
+	height: 40px;
+	color: #999900;
+	background-color: #333366;
+	text-decoration: none;
+	margin-left: 90px;
+	margin-bottom: -10px;
+	
+}
+.addcar:hover{
+	text-decoration: none;
+	background-color: #CC33CC;
+	color: #FFCCCC;
+	
+}
